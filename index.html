@@ -8,9 +8,9 @@
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
 
-  <body class="my-10 px-5">
-    <header class="header">
-      <div class="container">
+  <body class="">
+    <header class="header bg-stone-100">
+      <div class="container m-auto p-10">
         <div class="nav-wrapper flex justify-between">
           <span class="title font-bold text-xl">Fiber</span>
           <nav class="navWwrap hidden">
@@ -28,11 +28,11 @@
             <img src="Assets/Hamburger Menu.svg" alt="">
           </div>
         </div>
-        <section class="headerSection ">
+        <section class="headerSection">
           <div class="hero">
             <img src="./Assets/hero-Illustration.png" alt="Hero Illustration" />
           </div>
-          <div class="headerWord">
+          <div class="headerWord flex flex-col gap-5">
             <span class="rate hidden"><span class="star"></span>
               Rated 4.8/5 (243 reviews)</span>
             <h1 class="text-3xl font-bold">Create your portfolio in minutes.</h1>
@@ -40,14 +40,14 @@
               With Fiber your can setup your own personal portfolio in minutes
               with dozens of premade, beautiful templates.
             </p>
-            <div class="trialLinks flex flex-col">
-              <a href="#" class="freeTrial bg-indigo-500 text-white font-bold">Start Free Trial</a>
+            <div class="trialLinks flex flex-col items-center gap-3">
+              <a href="#" class="freeTrial bg-indigo-500 text-white font-bold rounded px-20 py-3">Start Free Trial</a>
               <a href="#" class="examples text-indigo-500 font-bold underline">View Examples</a>
             </div>
             <div class="reuq flex flex-col">
-              <span class="reuqItem before:content-[url('Assets/Checkmark.svg')]">
+              <span class="reuqItem before:content-[url('Assets/Checkmark.svg')] flex items-start gap-2">
                 No Credit Card Required</span>
-              <span class="reuqItem before:content-[url('Assets/Checkmark.svg')]">
+              <span class="reuqItem before:content-[url('Assets/Checkmark.svg')] flex items-start gap-2">
                 10 Free Templates</span>
             </div>
           </div>
@@ -56,17 +56,17 @@
     </header>
 
     <main class="main">
-      <div class="container">
+      <div class="container my-10 px-8 flex flex-col gap-7">
         <div class="subHead">
           <span class="why font-bold text-indigo-500">Why Fiber?</span>
           <h2 class="font-bold text-4xl">A good portfolio means good employability.</h2>
         </div>
-        <div class="artiGrid">
+        <div class="artiGrid flex flex-col gap-8">
           <article class="arti">
             <div class="artSvg">
               <img src="Assets/time.svg" alt="">
             </div>
-            <h3>Build in minutes</h3>
+            <h3 class="font-bold">Build in minutes</h3>
             <p>
               With a selection of premade templates, you can build out a
               portfolio in less then 10 minutes.
@@ -77,7 +77,7 @@
             <div class="artSvg">
               <img src="Assets/code.svg" alt="">
             </div>
-            <h3>Add custom CSS</h3>
+            <h3 class="font-bold">Add custom CSS</h3>
             <p>
               Customize your personal portfolio even more with the ability to
               add your own custom CSS styles.
@@ -88,7 +88,7 @@
             <div class="artSvg">
               <img src="Assets/allSizes.svg" alt="">
             </div>
-            <h3>Responsive</h3>
+            <h3 class="font-bold">Responsive</h3>
             <p>
               All Fiber templates are fully responsive to ensure the experience
               is seemless across all devices.
@@ -96,17 +96,17 @@
           </article>
         </div>
         <section class="dif">
-          <article class="difArticle rounded bg-indigo-500">
-            <h2 class="text-4xl">Diversify your portfolio.</h2>
-            <p>
+          <article class="difArticle rounded-md bg-indigo-500 space-y-3 p-8 flex flex-col">
+            <h2 class="text-4xl font-bold text-white">Diversify your portfolio.</h2>
+            <p class="text-white">
               Create an even more impressive portfolio by creating case studies
               for projects. Simply follow our step-by-step guide.
             </p>
-            <a href="#" class="difBtn">Start Free Trial</a>
+            <a href="#" class="difBtn bg-white text-indigo-500 font-bold rounded self-center px-16 py-3">Start Free Trial</a>
+            <div class="difImage">
+              <img src="./Assets/Page Image.png" alt="page image" />
+            </div>
           </article>
-          <div class="difImage">
-            <img src="./Assets/Page Image.png" alt="page image" />
-          </div>
         </section>
 
         <div class="comments flex flex-col gap-10">
@@ -126,10 +126,10 @@
               Since then , my portfolio has attracted a lot of clients and made
               me more than $100k.
             </p>
-            <a href="#" class="commentBtn border-2 px-5 py-2 text-indigo-500">View Sarah's Portfolio</a>
+            <a href="#" class="commentBtn rounded border-2 px-5 py-2 text-indigo-500 font-bold ">View Sarah's Portfolio</a>
           </div>
 
-          <div class="comment border-2 rounded px-5 py-5 ">
+          <div class="comment border-2 rounded px-5 py-5">
             <div class="profile">
               <div class="profileImg">
                 <img src="./Assets/User Avatar 2.svg" alt="user" />
@@ -145,7 +145,7 @@
               premade templates, now I just need to work on my case studies and
               I'll be ready to go!
             </p>
-            <a href="#" class="commentBtn border-2 px-5 py-2 text-indigo-500">View Mathew's Portfolio</a>
+            <a href="#" class="commentBtn rounded border-2 px-5 py-2 text-indigo-500 font-bold">View Mathew's Portfolio</a>
           </div>
 
           <div class="comment border-2 rounded px-5 py-5 ">
@@ -164,17 +164,17 @@
               more than i ever get in my full-time-job. the templates are so
               amazing.
             </p>
-            <a href="#" class="commentBtn border-2 px-5 py-2 text-indigo-500">View Janice's Portfolio</a>
+            <a href="#" class="commentBtn rounded border-2 px-5 py-2 text-indigo-500 font-bold ">View Janice's Portfolio</a>
           </div>
         </div>
       </div>
     </main>
 
-    <footer class="footer">
-      <div class="container">
-        <div class="footerGrid">
-          <div class="foot footerKead">
-            <h4>Fiber</h4>
+    <footer class="footer bg-stone-100">
+      <div class="container m-auto p-10">
+        <div class="footerGrid flex flex-col gap-5">
+          <div class="foot footerHead">
+            <h4 class="font-bold">Fiber</h4>
             <p>
               With Fiber, you can setup your own personal portfolio in minutes
               with dozens of premade, beautifultemplates.
@@ -183,7 +183,7 @@
           </div>
 
           <div class="foot">
-            <h4>Sitemap</h4>
+            <h4 class="font-bold">Sitemap</h4>
             <ul>
               <li><a href="#">Homepage</a></li>
               <li><a href="#">Pricing</a></li>
@@ -193,7 +193,7 @@
           </div>
 
           <div class="foot">
-            <h4>Resources</h4>
+            <h4 class="font-bold">Resources</h4>
             <ul>
               <li><a href="#">Support</a></li>
               <li><a href="#">Contact</a></li>
@@ -202,7 +202,7 @@
           </div>
 
           <div class="foot">
-            <h4>Company</h4>
+            <h4 class="font-bold">Company</h4>
             <ul>
               <li><a href="#">About</a></li>
               <li><a href="#">Customers</a></li>
@@ -211,7 +211,7 @@
           </div>
 
           <div class="foot">
-            <h4>Portfolios</h4>
+            <h4 class="font-bold">Portfolios</h4>
             <ul>
               <li><a href="#">Sarah Andrews</a></li>
               <li><a href="#">Mathew Higgins</a></li>
